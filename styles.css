@@ -1,3 +1,8 @@
+a{
+    text-decoration: none;
+    color :white
+}
+
 #OuterMostContainer{
     background-color: black;
     color: white;
@@ -9,35 +14,40 @@ body{
 }
 
 #box1{
-    font-size:70px;
+    font-size: 84px;
     padding-top: 300px;
-    padding-left: 25%;
+    padding-left: 21%;
     font-family: mark pro;
     margin: 0px;
 }
 
 #box2{
-    padding-left: 25%;
+    padding-left: 21%;
     padding-top: 5%;
+    text-decoration: none;
+    color: white;
 }
 
 #box3{
     margin-left: 80%;
-    margin-top: 18%;
+    margin-top: 17%;
     /* border: solid red; */
     margin-left: 83%;
     display: flex;
     justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+}
+
+.box3Text{
+    text-decoration: none;
+    color: white; 
 }
 
 .box3Img{
     width : 30px;
     height: 30px;
 }
-
-/* .box3Text{
-    margin-bottom: 10px;
-} */
 
 #box4_aboutmePhoto_Paragraph_letsconnect > img{
     width : 240px;
@@ -51,7 +61,7 @@ body{
 #box4_1 {
     width: 900px;
     margin: auto;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 #box4_2{
@@ -60,7 +70,12 @@ body{
 
 #box4_H{
     margin-top: 40px;
-    margin-left: 8px;
+    margin-left: 6px;
+    font-size: 35px;
+}
+
+.box4Connect{
+    color: white;
 }
 
 .centreFlex{
@@ -79,3 +94,115 @@ body{
 .left-padding-5{
     padding-left: 5px;
 }
+
+#statsSectionFlex{
+    display: flex;
+    width: 67%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.statsSectionSubFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statsSectionSubFlex-heading1{
+    font-size: 40px;
+    color: silver;
+}
+
+.statsSectionSubFlex-heading2{
+    font-size: 30px;
+    color: silver;
+    margin: 0px;
+}
+
+.statsSectionSubFlex-heading3{
+    font-size: 20px;
+}
+
+
+#toolsIuse{
+    margin-top: 100px;
+    font-size: 35px;
+    margin-left: 19%;
+    margin-bottom: 65px;
+}
+
+#techBox{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.techCapsule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.techCapsuleImgDiv{
+    width: 100px;
+    height: 100px;
+}
+
+.techCapsuleImg{
+    width: 100%;
+    height: 100%;
+}
+
+.techCapsuleImg2, .connectCapsuleImg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#connectHeading{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 20%;
+    font-size: 35px;
+}
+
+.connectCapsule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#baseConnectBox{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin-left: 18%;
+}
+
+.connectCapsuleImgDiv{
+    width: 50px;
+    height: 50px;
+}
+
+.miscConnectCapsuleImgDiv{
+    width: 50px;
+    height: 43px;
+}
+
+.miscConnectCapsuleText{
+    margin-top: 22px;
+}
+
+hr{
+    margin:0%;
+    padding: 0px;
+}
+
+#credits{
+    padding: 13px;
+    margin: 0px;
+}
+
