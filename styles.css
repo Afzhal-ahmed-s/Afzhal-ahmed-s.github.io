@@ -6,7 +6,6 @@ a{
 #OuterMostContainer{
     background-color: black;
     color: white;
-    font-family: mark;
 }
 
 body{
@@ -55,13 +54,14 @@ body{
     margin-left: 43%;
     border-radius: 600px;
     margin-top: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 110px;
 }
 
 #box4_1 {
     width: 900px;
     margin: auto;
     font-size: 24px;
+    text-align: justify;
 }
 
 #box4_2{
@@ -69,7 +69,7 @@ body{
 }
 
 #box4_H{
-    margin-top: 40px;
+    margin-top: 100px;
     margin-left: 6px;
     font-size: 32px;
 }
@@ -100,7 +100,7 @@ body{
     width: 67%;
     margin: auto;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .statsSectionSubFlex{
@@ -128,8 +128,8 @@ body{
 #toolsIuse{
     margin-top: 130px;
     font-size: 35px;
-    margin-left: 19%;
-    margin-bottom: 65px;
+    margin-left: 18.5%;
+    margin-bottom: 60px;
 }
 
 #techBox{
@@ -167,6 +167,7 @@ body{
     margin-bottom: 40px;
     margin-left: 20%;
     font-size: 35px;
+
 }
 
 .connectCapsule{
@@ -207,3 +208,162 @@ hr{
     margin: 0px;
 }
 
+#projectSectionHeading{
+    font-size: 35px;
+    margin-left: 18.5%;
+    margin-top: 200px;
+    font-weight: bold;
+}
+
+.highlightByOtherColor{
+    color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+        
+    color: #aa32b8;
+    background-image: -webkit-linear-gradient(0deg, #aa32b8 11%, #e91e63 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* text-fill-color: transparent; */
+    -webkit-text-fill-color: transparent;
+
+}
+
+.project-section {
+    display: flex;
+    justify-content: center;
+    width: 64%;
+    margin: auto;
+}
+
+.project-card {
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.project-video-wrapper {
+    max-width: 100%;
+    height: auto;
+}
+
+.project-video {
+    max-width: 100%;
+}
+
+.project-first-col {
+    width: 60%;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+.project-second-col {
+    width: 40%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card-details {
+    /* list-style: none; */
+    margin: 1rem 0;
+    padding: 0px;
+}
+
+.project-card-name {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-card-item {
+    /* display: flex; */
+    align-items: flex-start;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+.project-links {
+    display: flex;
+    width: 100%;
+}
+
+.project-links > a {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    border: 1px solid #fff;
+    margin-right: 1rem;
+}
+
+.project-skill-icons {
+    display: flex;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    align-items: center;
+    margin: 3rem auto 0;
+    flex-wrap: wrap;
+}
+
+.project-skill-icons > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.project-skill-icons > div > img {
+    width: 4rem;
+    height: 4rem;
+    font-size: 5rem;
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.project-skill-icons > div > h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+@media (max-width: 1100px) {
+    .project-section .project-card {
+        flex-direction: column;
+    }
+
+    .project-first-col {
+        width: 100%;
+    }
+
+    .project-second-col {
+        width: 100%;
+    }
+}
+
+/* .color2{
+
+    color: #b8f5ff !important;
+    background-image: -webkit-linear-gradient(0deg, #b8f5ff 0%, #f09dfc 100%) !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  
+  } */
