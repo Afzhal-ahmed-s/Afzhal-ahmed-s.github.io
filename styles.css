@@ -6,7 +6,7 @@ a{
 #OuterMostContainer{
     background-color: black;
     color: white;
-    /* font-family: sans-serif; */
+    font-family: mark;
 }
 
 body{
@@ -71,7 +71,7 @@ body{
 #box4_H{
     margin-top: 40px;
     margin-left: 6px;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 .box4Connect{
@@ -126,7 +126,7 @@ body{
 
 
 #toolsIuse{
-    margin-top: 100px;
+    margin-top: 130px;
     font-size: 35px;
     margin-left: 19%;
     margin-bottom: 65px;
@@ -163,7 +163,7 @@ body{
 }
 
 #connectHeading{
-    margin-top: 70px;
+    margin-top: 130px;
     margin-bottom: 40px;
     margin-left: 20%;
     font-size: 35px;
@@ -180,6 +180,7 @@ body{
     justify-content: space-around;
     width: 30%;
     margin-left: 18%;
+    margin-bottom: 100px;
 }
 
 .connectCapsuleImgDiv{
