@@ -3,39 +3,39 @@ a{
     color :white
 }
 
-#OuterMostContainer{
+body{
+    margin: 0px;
     background-color: black;
     color: white;
 }
 
-body{
-    margin: 0px;
-}
 
 #box1{
-    font-size: 84px;
-    padding-top: 300px;
-    padding-left: 21%;
+    font-size: 3.3rem;
+    padding-top: 160px;
+    padding-left: 10%;
     font-family: mark pro;
-    margin: 0px;
+    margin: 0px 5px 0px 0px;
 }
 
 #box2{
-    padding-left: 21%;
-    padding-top: 5%;
+    padding-left: 10%;
+    padding-top: 10%;
     text-decoration: none;
     color: white;
 }
 
+
 #box3{
-    margin-left: 80%;
-    margin-top: 17%;
-    /* border: solid red; */
-    margin-left: 83%;
+    margin-top: 15rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     text-decoration: none;
     color: white;
+}
+
+#box3 > a{
+    margin-right: 25px;
 }
 
 .box3Text{
@@ -48,34 +48,92 @@ body{
     height: 30px;
 }
 
-#box4_aboutmePhoto_Paragraph_letsconnect > img{
+.image-wrapper {
     width : 240px;
     height: 250px;
-    margin-left: 43%;
+    margin: 20rem auto 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper > img{
+    width : 70%;
+    height: 70%;
     border-radius: 600px;
-    margin-top: 200px;
-    margin-bottom: 110px;
+}
+
+@media (min-width: 768px) {
+    .image-wrapper > img{
+        width : 100%;
+        height: 100%;
+    }
 }
 
 #box4_1 {
-    width: 900px;
-    margin: auto;
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
+    padding: 30px;
 }
 
+@media (min-width: 768px) {
+    #box1{
+        font-size: 84px;
+        padding-left: 18%;
+        padding-top: 300px;
+    }
+
+    #box2 {
+        padding-left: 18%;
+        padding-top: 5%;
+    }
+
+    #box4_1 {
+        padding: 30px;
+        width: 58rem;
+        font-size: 22px;
+        margin-left: 16.5%;
+    }
+
+    #box4_2 {
+        margin-left: 18%;
+    }
+}
+
+
+
 #box4_2{
-    margin-left: 18.3%;
+    padding: 28px;
 }
 
 #box4_H{
     margin-top: 100px;
-    margin-left: 6px;
+    margin-left: -20px;
     font-size: 32px;
+
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 .box4Connect{
     color: white;
+    margin-left: -24px;}
+
+@media (max-width: 768px) {
+    .box4Connect > a > img {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+#box4_aboutmePhoto_Paragraph_letsconnect {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .centreFlex{
@@ -100,7 +158,15 @@ body{
     width: 67%;
     margin: auto;
     justify-content: space-around;
+    flex-direction: column;
     margin-top: 150px;
+}
+
+@media (min-width: 768px) {
+    #statsSectionFlex {   
+        flex-direction: row;
+        margin-top: 130px;
+    }
 }
 
 .statsSectionSubFlex{
@@ -130,14 +196,20 @@ body{
     font-size: 35px;
     margin-left: 18.5%;
     margin-bottom: 60px;
+
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-#techBox{
+.techBox{
     display: flex;
     flex-direction: row;
-    width: 75%;
+    width: 66%;
+    flex-wrap: wrap;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .techCapsule{
@@ -165,9 +237,19 @@ body{
 #connectHeading{
     margin-top: 130px;
     margin-bottom: 40px;
-    margin-left: 20%;
+    margin-left: 5%;
     font-size: 35px;
 
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 768px) {
+    #connectHeading{
+        margin-left: 19%;
+    }
 }
 
 .connectCapsule{
@@ -179,9 +261,14 @@ body{
 #baseConnectBox{
     display: flex;
     justify-content: space-around;
-    width: 30%;
-    margin-left: 18%;
     margin-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+    #baseConnectBox{
+        width: 30%;
+        margin-left: 17%;
+    }
 }
 
 .connectCapsuleImgDiv{
@@ -213,6 +300,11 @@ hr{
     margin-left: 18.5%;
     margin-top: 200px;
     font-weight: bold;
+
+    background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .highlightByOtherColor{
@@ -231,7 +323,7 @@ hr{
 .project-section {
     display: flex;
     justify-content: center;
-    width: 64%;
+    width: 63%;
     margin: auto;
 }
 
@@ -355,6 +447,11 @@ hr{
     .project-second-col {
         width: 100%;
     }
+}
+
+.project-card-description{
+    font-size: 21px;
+    margin: 25px 0px 0px 0px;
 }
 
 /* .color2{
