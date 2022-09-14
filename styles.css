@@ -27,7 +27,7 @@ body{
 
 
 #box3{
-    margin-top: 15rem;
+    margin-top: 23rem;
     display: flex;
     justify-content: flex-end;
     text-decoration: none;
@@ -76,7 +76,293 @@ body{
     padding: 30px;
 }
 
-@media (min-width: 768px) {
+/* iPadAir */
+@media screen and (min-device-width: 720px) and (max-device-width: 992px) { 
+    /* STYLES HERE */
+    #box3 {
+        margin-top: 35rem;
+        margin-right: 5.5%;
+    }
+    #box1{
+        padding-top: 390px;
+    }
+    #box4_1{
+        padding: 7.5% !important;
+    }
+    .image-wrapper{
+        width : 200px !important;
+        height: 200px !important;
+    }
+    #box4_H{
+        margin-top: 15px !important;
+        margin-left: 11.2% !important;
+        font-size: 30px !important;
+    }
+    .box4Connect{
+        margin-left: 10.4% !important;
+    }
+    .centreFlex > img{
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .statsSectionSubFlex-heading1 {
+        font-size: 25px !important;
+    }
+    .statsSectionSubFlex-heading2 {
+        font-size: 20px !important;
+    }
+    .statsSectionSubFlex-heading3 {
+        font-size: 18px !important;
+    }
+    #statsSectionFlex{
+        margin-top: 110px;
+        width: 85% !important;
+        margin-top: 110px;
+    }
+    #projectSectionHeading{
+        font-size: 30px !important;
+        margin-left: 7.5% !important;
+    }
+    .project-section{
+        width: 85% !important;
+    }
+    #toolsIuse{
+        margin-left: 7.5% !important;
+        margin-bottom: 30px !important;
+    }
+    .techBox{
+        display: flex;
+        flex-direction: row;
+        width: 85% !important;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: space-around;
+    }
+    .techCapsule{
+        margin: 0px 20px 0 20px !important;
+    }
+    #connectHeading{
+        margin-left: 7.5% !important;
+    }
+    #baseConnectBox{
+        width: 75% !important;
+        margin: auto !important;
+        margin-bottom: 30px !important;
+    }
+    .project-skill-icons{
+        margin: 3rem auto 1rem !important;
+    }
+    .project-skill-icons > div{
+        margin: 0 10px 0 10px !important;
+    }
+    .project-card{
+        margin-top: 7px !important;
+    }
+    #box4_2{
+        margin-left: 0.5% !important;
+    }
+    .project-card-name{
+        font-size: 28px;
+    }
+    #toolsIuse{
+        font-size: 30px !important;
+    }
+    #connectHeading{
+        font-size: 30px !important;
+    }
+    .project-card-item{
+        font-size: 21px !important;
+    }
+}
+
+/* Mobile */
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) { 
+    #box1{
+        font-size: 2.5rem !important;
+        padding-top: 180px !important;
+        padding-left: 10%;
+        font-family: mark pro;
+        margin: 0px 5px 0px 0px;
+    }
+    .box3Img{
+        width : 20px;
+        height: 20px;
+    }
+    #box3{
+        font-size: 10px;
+        margin-top: 18rem;
+        display: flex;
+        justify-content: flex-end;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .image-wrapper {
+    width: 240px;
+    height: 250px;
+    margin: 17rem auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    #box4_1{
+        font-size: 18px;
+        text-align: justify;
+        padding: 30px;
+    }
+
+    #box3 > a{
+        margin-right: 12px;
+    }
+    #box4_2{
+        padding: 28px;
+        margin-left: 5% !important;
+        margin-top: -80px;
+    }
+
+    #statsSectionFlex{
+        display: flex;
+        width: 67%;
+        margin: auto;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 80px !important;
+    }
+
+    #box4_H{
+        /* margin-top: 15px !important;
+        margin-left: 11.2% !important; */
+        font-size: 24px !important;
+    }
+
+    .statsSectionSubFlex-heading1{
+        font-size: 25px !important;
+        color: silver !important;
+        margin: 13px 0 9px 0 !important;
+    }
+
+    .statsSectionSubFlex-heading2{
+        font-size: 20px !important;
+        color: silver;
+        margin: 0px !important;
+    }
+
+    .statsSectionSubFlex-heading3{
+        font-size: 20px !important;
+        margin: 9px 0 13px 0 !important;
+    }
+
+    .project-card{
+        border: 1px solid #fff;
+        border-radius: 0.5rem;
+        margin: 10px 10px !important;
+        padding: 2rem !important;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        /* width: 27px; */
+    }
+
+    .project-section{
+        display: flex;
+        justify-content: center;
+        width: 90% !important;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    #projectSectionHeading{
+        margin-left: 8.2% !important;
+        font-size: 24px !important;
+        margin-top: 120px !important;
+    }
+
+    .project-card-name{
+        font-size: 20px !important;
+    }
+
+    .project-card-description{
+        font-size: 18px !important;
+        margin: 25px 0px 0px 0px !important;
+    }
+
+    .project-card-details{
+        font-size: 18px !important;
+    }
+
+    .project-skill-icons > div > h4{
+        font-size: 0.9 rem !important;
+    }
+
+    .project-skill-icons > div > img{
+        width: 50px!important;
+        height: 50px !important;
+    }
+
+    .project-skill-icons > div{
+        margin-right: 0 !important;
+        margin: 0 5px 0 5px;
+    }
+
+    .project-card-item{
+        font-size: 18px !important;
+    }
+
+    .project-skill-icons > div > h4{
+        font-size: 14px !important;
+    }
+
+    .project-links > a{
+        font-size: 15px !important;
+    }
+
+    #toolsIuse{
+        margin-left: 7.5% !important;
+        font-size: 24px !important;
+    }
+
+    .techBox{
+        width: 80% !important;
+    }
+
+    .techCapsuleImgDiv{
+        width: 56px !important;
+        height: 49px !important;
+    }
+
+    .techCapsuleText{
+        font-size: 14px !important;
+    }
+
+    #connectHeading{
+        font-size: 24px !important;
+        margin-left: 7.5% !important;
+    }
+
+    #baseConnectBox{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px !important;
+        width: 75% !important;
+        margin-left: 12.5% !important;
+    }
+
+    .connectCapsuleImgDiv{
+        width: 35px !important;
+        height: 35px !important;
+    }
+
+    .miscConnectCapsuleImgDiv{
+        width: 35px !important;
+        height: 30px !important;
+    }
+
+
+
+}
+
+@media (min-width: 992px) {
     #box1{
         font-size: 84px;
         padding-left: 18%;
@@ -88,28 +374,34 @@ body{
         padding-top: 5%;
     }
 
+    #box3 {
+        margin-top: 15rem;
+    }
+
+    #box4_2 {
+        padding: 28px;
+        margin-left: 26px;
+        }
+}
+
+@media (min-width: 992px) {
     #box4_1 {
         padding: 30px;
         width: 58rem;
         font-size: 22px;
         margin-left: 16.5%;
     }
-
-    #box4_2 {
-        margin-left: 18%;
-    }
 }
-
-
 
 #box4_2{
     padding: 28px;
+    margin-left: 18%;    
 }
 
 #box4_H{
     margin-top: 100px;
     margin-left: -20px;
-    font-size: 32px;
+    font-size: 35px;
 
     background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
     background-clip: text;
@@ -120,6 +412,7 @@ body{
 
 .box4Connect{
     color: white;
+    margin-bottom: 2px;
     margin-left: -24px;}
 
 @media (max-width: 768px) {
@@ -155,7 +448,7 @@ body{
 
 #statsSectionFlex{
     display: flex;
-    width: 67%;
+    width: 65%;
     margin: auto;
     justify-content: space-around;
     flex-direction: column;
@@ -176,18 +469,18 @@ body{
 }
 
 .statsSectionSubFlex-heading1{
-    font-size: 40px;
+    font-size: 34px;
     color: silver;
 }
 
 .statsSectionSubFlex-heading2{
-    font-size: 30px;
+    font-size: 28px;
     color: silver;
     margin: 0px;
 }
 
 .statsSectionSubFlex-heading3{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -299,6 +592,7 @@ hr{
     font-size: 35px;
     margin-left: 18.5%;
     margin-top: 200px;
+    margin-bottom: 0px;
     font-weight: bold;
 
     background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
@@ -323,12 +617,18 @@ hr{
 .project-section {
     display: flex;
     justify-content: center;
-    width: 63%;
+    width: 95%;
     margin: auto;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .project-section {
+        width: 63%;
+    }
 }
 
 .project-card {
-    width: 100%;
     border: 1px solid #fff;
     border-radius: 0.5rem;
     margin: 2rem auto;
@@ -368,7 +668,7 @@ hr{
 
 .project-card-name {
     color: #fff;
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: 700;
     margin: 0;
     background-image: linear-gradient(90deg,#b0f3f1,#ffcfdf);
@@ -380,7 +680,7 @@ hr{
 .project-card-item {
     /* display: flex; */
     align-items: flex-start;
-    font-size: 1.3rem;
+    font-size: 20px;
     margin: 1rem 0;
 }
 
@@ -450,7 +750,7 @@ hr{
 }
 
 .project-card-description{
-    font-size: 21px;
+    font-size: 20px;
     margin: 25px 0px 0px 0px;
 }
 
