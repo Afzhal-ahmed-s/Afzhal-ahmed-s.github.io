@@ -123,6 +123,8 @@ body{
     #projectSectionHeading{
         font-size: 30px !important;
         margin-left: 7.5% !important;
+        margin-top: 100px !important;
+        margin-bottom: 10px !important;
     }
     .project-section{
         width: 85% !important;
@@ -279,7 +281,7 @@ body{
     #projectSectionHeading{
         margin-left: 8.2% !important;
         font-size: 24px !important;
-        margin-top: 120px !important;
+        margin-top: 60px !important;
     }
 
     .project-card-name{
@@ -764,13 +766,32 @@ hr{
     margin: 25px 0px 0px 0px;
 }
 
-/* .color2{
+.contrib-number {
+    color: white !important;
+}
 
-    color: #b8f5ff !important;
-    background-image: -webkit-linear-gradient(0deg, #b8f5ff 0%, #f09dfc 100%) !important;
-    background-clip: text;
-    -webkit-background-clip: text;
-    text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
-  
-  } */
+.githubCalendarWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    scale: 0.36;
+}
+
+@media (min-width:768px) {
+    .githubCalendarWrapper {
+        scale: 0.7;
+    }
+}
+
+@media (min-width:992px) {
+    .githubCalendarWrapper {
+        scale: 1.1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px;
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+}
