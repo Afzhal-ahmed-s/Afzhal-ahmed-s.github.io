@@ -7,6 +7,7 @@ body{
     margin: 0px;
     background-color: black;
     color: white;
+    font-family:   system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 
@@ -14,7 +15,7 @@ body{
     font-size: 3.3rem;
     padding-top: 160px;
     padding-left: 10%;
-    font-family: mark pro;
+    /* font-family: mark pro; */
     margin: 0px 5px 0px 0px;
 }
 
@@ -173,6 +174,9 @@ body{
     .project-card-item{
         font-size: 21px !important;
     }
+    .project-card-details{
+        padding: 1px !important;
+    }
 }
 
 /* Mobile */
@@ -315,6 +319,7 @@ body{
 
     .project-links > a{
         font-size: 15px !important;
+        padding: 0.8rem 0.8rem !important;
     }
 
     #toolsIuse{
@@ -358,6 +363,9 @@ body{
         height: 30px !important;
     }
 
+    .project-second-col{
+        width: 94% !important;
+    }
 
 
 }
@@ -365,12 +373,12 @@ body{
 @media (min-width: 992px) {
     #box1{
         font-size: 84px;
-        padding-left: 18%;
+        padding-left: 15%;
         padding-top: 300px;
     }
 
     #box2 {
-        padding-left: 18%;
+        padding-left: 15%;
         padding-top: 5%;
     }
 
@@ -476,11 +484,13 @@ body{
 .statsSectionSubFlex-heading2{
     font-size: 28px;
     color: silver;
-    margin: 0px;
+    margin: 0 20px 0 20px;
 }
 
 .statsSectionSubFlex-heading3{
     font-size: 25px;
+    margin: 15px 10px 0 10px;
+    text-align: center;    
 }
 
 
