@@ -442,6 +442,10 @@ body {
         /* border: 1px solid white; */
     }
 
+    .gitHubCalendar{
+        scale: 0.39;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -858,7 +862,7 @@ hr {
     justify-content: center;
     align-items: center;
     margin: 50px;
-    scale: 0.16;
+    /* scale: 0.16; */
 }
 
 @media (min-width:768px) {
