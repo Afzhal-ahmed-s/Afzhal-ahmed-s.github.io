@@ -232,6 +232,12 @@ body {
     .project-card-details {
         padding: 1px !important;
     }
+
+    .innerBoxCategory{
+        font-size: 22px !important;
+    }
+
+
 }
 
 /* Mobile */
@@ -395,7 +401,7 @@ body {
     }
 
     .techCapsuleText {
-        font-size: 14px !important;
+        font-size: 10px !important;
     }
 
     #connectHeading {
@@ -450,6 +456,37 @@ body {
         color: white !important;
         scale: .68 !important;
     }
+
+    .mobSkills{
+        display: flex;
+        justify-content: start;
+        margin-left: 9px;
+        /* flex-wrap: wrap !important; */
+    }
+
+    .mobSkillsHeading{
+        margin: 9% 0 2% 7% !important;
+        font-size: 15px !important;
+
+        background-image: linear-gradient(90deg, #b0f3f1, #ffcfdf);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .techCapsule{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 10px 0 10px !important;
+    }
+
+    .mobSkillsOuterBox{
+        margin: auto;
+        margin-top: 60px !important;
+        width: 95%;
+    }
+
 
 }
 
@@ -890,8 +927,9 @@ hr {
 }
 
 .rowInnerBox {
+        margin: auto;
     display: flex;
-    width: 100%;
+    width: 87%;
     justify-content: space-evenly;
     align-items: center;
     padding: 25px;
@@ -908,13 +946,21 @@ hr {
 }
 
 .innerBoxCategory {
-    /* border-right: 1px solid white; */
+    white-space: nowrap;
+    flex: 50%;
+}
+
+@media (min-width: 768px) {
+    .innerBoxCategory {
+        font-size: 25px;
+        font-weight: 500;    }
 }
 
 .innerBoxIcons {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 50%;
 }
 
 .divider {
