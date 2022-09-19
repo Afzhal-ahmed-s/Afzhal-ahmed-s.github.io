@@ -443,7 +443,12 @@ body {
     }
 
     .gitHubCalendar{
-        scale: 0.39;
+        scale: 0.41;
+    }
+
+    .contrib-number {
+        color: white !important;
+        scale: .68;
     }
 
 }
