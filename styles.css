@@ -448,7 +448,7 @@ body {
 
     .contrib-number {
         color: white !important;
-        scale: .68;
+        scale: .68 !important;
     }
 
 }
