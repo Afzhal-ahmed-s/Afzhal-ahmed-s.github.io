@@ -33,4 +33,4 @@ Portfolio website made responsive for 3 different screen sizes.
 - iPhone view
 ![](https://github.com/Afzhal-ahmed-s/Afzhal-ahmed-s.github.io/blob/main/portfolio%20screenshots/Screenshot%202022-09-21%20at%203.26.55%20PM.png)
 
-<a href="https://afzhal-ahmed-s.github.io">Click here to visit my portfolio</a>
+<a href="https://afzhal-ahmed-s.github.io" target="_blank">Click here to visit my portfolio</a>
