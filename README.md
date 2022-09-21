@@ -1,4 +1,4 @@
-<a href="https://afzhal-ahmed-s.github.io">Click here to visit my portfolio</a>
+<a href="https://afzhal-ahmed-s.github.io" target="_blank">Click here to visit my portfolio</a>
 
 Portfolio website made responsive for 3 different screen sizes.
 
