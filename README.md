@@ -1,6 +1,6 @@
 <a href="https://afzhal-ahmed-s.github.io" target="_blank">Click here to visit my portfolio</a>
 
-Portfolio website made responsive for 3 different screen sizes.
+A Responsive Portfolio Website
 
 # Technology
 
