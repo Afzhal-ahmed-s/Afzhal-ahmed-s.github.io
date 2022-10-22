@@ -23,3 +23,14 @@ function hideOrShowTechBox() {
         document.getElementById("techBoxDesktop").style.display = "none";
     }
 }
+
+window.onload = function () {
+    setTimeout(appeardiv,3000);
+}
+function appeardiv() {
+    document.getElementsByClassName('header').style.display= "block";
+}
+
+setTimeout(function () {
+    $(".header").show()
+}, 4000);

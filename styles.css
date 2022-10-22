@@ -7,12 +7,13 @@ body {
     margin: 0px;
     background-color: black;
     color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
 #box1 {
     font-size: 3.3rem;
+    font-weight: 700!important;
     padding-top: 160px;
     padding-left: 10%;
     /* font-family: mark pro; */
@@ -34,6 +35,10 @@ body {
 #box1 .effectObj3 {
     -webkit-animation: fadein 9s !important;
 }
+
+/* .header{
+    display: none;
+} */
 
 
 #box2 {
@@ -246,7 +251,7 @@ body {
         font-size: 2.5rem !important;
         padding-top: 180px !important;
         padding-left: 10%;
-        font-family: mark pro;
+        /* font-family: mark pro; */
         margin: 0px 5px 0px 0px;
     }
 
@@ -708,7 +713,7 @@ body {
 }
 
 .miscConnectCapsuleText {
-    margin-top: 22px;
+    margin-top: 9px;
 }
 
 hr {
@@ -719,6 +724,11 @@ hr {
 #credits {
     padding: 13px;
     margin: 0px;
+}
+
+#credits:hover{
+    color: #91dbfb;
+    cursor: pointer;
 }
 
 #projectSectionHeading {
@@ -785,6 +795,7 @@ hr {
 
 .project-video {
     max-width: 100%;
+    border-radius: 7px;
 }
 
 .project-first-col {
@@ -833,6 +844,7 @@ hr {
     font-size: 1rem;
     padding: 1rem 1rem;
     border: 1px solid #fff;
+    border-radius: 7px;
     margin-right: 1rem;
 }
 
@@ -987,4 +999,68 @@ a:hover {
     text-decoration: underline !important;
     text-underline-offset: 5px !important;
     text-decoration-color: gray !important;
+}
+
+/* Navbar addons */
+
+.custom-navbar-color{
+    color: white!important;
+}
+
+.custom-btn-color{
+    color: white!important;
+    background-color: #444747 !important;
+}
+
+.custom-navbar-color:hover{
+    color: #b0f3f1 !important;
+    text-decoration: none !important;
+}
+
+.cus-button-color{
+    color: grey!important;
+}
+
+.navbar-toggler-icon{
+    color: white!important;
+}
+
+@font-face {
+    font-family:brand ;
+    src: url(assets/RaffishlyRegular-x3gaV.ttf);
+}
+
+.navbar-brand{
+    font-family: brand !important;
+}
+
+@font-face {
+    font-family:Roboto-Regular ;
+    src: url(Roboto-Regular.ttf);
+}
+
+.signature-font{
+    font-size: 30px !important;
+}
+
+.custom-height-adjust{
+    padding: 0px !important;
+}
+
+#headerDelay{
+    animation: cssAnimation 0s 5s forwards;
+    visibility: hidden;
+    opacity: 0.9 !important;
+}
+
+a:hover{
+    color: #b0f3f1 !important;
+}
+
+.contrib-column{
+border-top: 0px !important;
+}
+
+.border{
+    border: 0px !important;
 }

@@ -6,10 +6,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Afzhal Ahmed S</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href=".MyBS/css/bootstrap.css">
   <link rel="stylesheet" href="./styles.css">
+
   <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
   <link href="./assets/icons8-font-style-formatting-30.png" rel="icon" sizes="30x30" type="image/png">
 <body>
+
+
+  <header class="header" id="headerDelay">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light custom-height-adjust custom-navbar-color bg-dark  style="background-color: #282A2A;">
+      <!-- <nav class="navbar fixed-top navbar-light" style="background-color: #282A2A;"> -->
+      <div class="container-fluid">
+        <a class="navbar-brand signature-font custom-navbar-color" href="#">Afzhal Ahmed S</a>
+        <button class="navbar-toggler custom-btn-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span ></span>
+          <span ></span>
+          <span ></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+            <li class="nav-item" id="aboutMe">
+              <a class="nav-link active custom-navbar-color" aria-current="page" href="index.html#myImage">About me </a>
+            </li>
+            <li class="nav-item" id="statistics">
+              <a class="nav-link custom-navbar-color" href="index.html#bstatsSection"> Statistics </a>
+            </li>
+            <li class="nav-item" id="skills">
+              <a class="nav-link custom-navbar-color" href="index.html#toolsIuse"> Skills </a>
+            </li>
+            <li class="nav-item" id="projects">
+              <a class="nav-link custom-navbar-color" href="index.html#bprojectSectionHeading"> Projects </a>
+            </li>
+            <li class="nav-item" id="connect">
+              <a class="nav-link custom-navbar-color" href="index.html#connectHeading"> Connect  </a>
+            </li>
+            <li class="nav-item" id="resume">
+              <a class="nav-link custom-navbar-color" href="./assets/Afzhal Ahmed S(fw19_0484).pdf" target="_blank" download> Resume  </a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+  </header>
+
   <div id="OuterMostContainer">
    
     
@@ -29,7 +72,7 @@
 
     <div id="box4_aboutmePhoto_Paragraph_letsconnect">
       <div class="image-wrapper">
-        <img src="./assets/WhatsApp Image 2022-09-10 at 6.11.15 PM.jpeg" alt="Afzhal Ahmed S" />
+        <img id="myImage" src="./assets/WhatsApp Image 2022-09-10 at 6.11.15 PM.jpeg" alt="Afzhal Ahmed S" />
       </div>
       <div id="box4_1">
         <p>Hi, my name is <span class="highlightByOtherColor">Afzhal Ahmed </span>and I am a <span
@@ -58,20 +101,26 @@
       </div>
     </div>
 
+    <div id="bstatsSection"></div>
     <div id="statsSection">
       <div id="statsSectionFlex">
         <div class="statsSectionSubFlex">
           <h3 class="statsSectionSubFlex-heading1">1200+</h3>
           <h2 class="statsSectionSubFlex-heading2">Hours</h3>
-            <h2 class="statsSectionSubFlex-heading3">of Full stack coding</h3>
+            <h2 class="statsSectionSubFlex-heading3">Full stack coding</h3>
         </div>
         <div class="statsSectionSubFlex">
-          <h3 class="statsSectionSubFlex-heading1">60+</h3>
+          <h3 class="statsSectionSubFlex-heading1">2 ☆</h3>
+          <h2 class="statsSectionSubFlex-heading2">LeetCode</h3>
+            <h2 class="statsSectionSubFlex-heading3">Problem solving skills</h3>
+        </div>
+        <div class="statsSectionSubFlex">
+          <h3 class="statsSectionSubFlex-heading1">70+</h3>
           <h2 class="statsSectionSubFlex-heading2">LeetCode</h3>
             <h2 class="statsSectionSubFlex-heading3">Problems solved</h3>
         </div>
         <div class="statsSectionSubFlex">
-          <h3 class="statsSectionSubFlex-heading1">50+</h3>
+          <h3 class="statsSectionSubFlex-heading1">350+</h3>
           <h2 class="statsSectionSubFlex-heading2">Git</h3>
             <h2 class="statsSectionSubFlex-heading3">Commits</h3>
         </div>
@@ -83,7 +132,7 @@
         <div class="statsSectionSubFlex">
           <h3 class="statsSectionSubFlex-heading1">100+</h3>
           <h2 class="statsSectionSubFlex-heading2">Hours</h3>
-            <h2 class="statsSectionSubFlex-heading3">of Soft skills training</h3>
+            <h2 class="statsSectionSubFlex-heading3">Soft skills training</h3>
         </div>
       </div>
     </div>
@@ -261,6 +310,8 @@
   </div>
   
 
+<div id="bprojectSectionHeading"></div>
+
 
     <!-- Project section -->
     <p id="projectSectionHeading" class="color2">Projects</p>
@@ -406,6 +457,10 @@
     <p id="credits">Afzhal Ahmed S</p>
   </div>
 </body>
+<script src=".MyBS/js/bootstrap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
 <script src="./script.js"></script>
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 </script>
