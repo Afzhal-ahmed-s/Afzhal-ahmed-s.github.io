@@ -1048,7 +1048,7 @@ a:hover {
 }
 
 #headerDelay{
-    animation: cssAnimation 0s 7s forwards;
+    animation: cssAnimation 0s 5s forwards;
     visibility: hidden;
     opacity: 0.9 !important;
 }
