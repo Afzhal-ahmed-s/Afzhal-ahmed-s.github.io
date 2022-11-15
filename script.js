@@ -34,3 +34,10 @@ function appeardiv() {
 setTimeout(function () {
     $(".header").show()
 }, 4000);
+
+document.getElementById("dual_fn_res").addEventListener("click", dual_fn);
+
+function dual_fn() {
+    console.log("in");
+    window.location.href = "https://drive.google.com/file/d/1kenVWj3VuGcZ9-iWmy23zgT61H_9YN8H/view?usp=sharing";
+}
