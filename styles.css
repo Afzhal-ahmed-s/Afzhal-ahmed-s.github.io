@@ -174,12 +174,7 @@ body {
         width: 85% !important;
     }
 
-    #toolsIuse {
-        margin-left: 7.5% !important;
-        margin-bottom: 30px !important;
-    }
-
-    #toolsIuse2 {
+    #toolsIuse, #toolsIuse-2 {
         margin-left: 7.5% !important;
         margin-bottom: 30px !important;
     }
@@ -227,7 +222,7 @@ body {
         font-size: 28px;
     }
 
-    #toolsIuse {
+    #toolsIuse, #toolsIuse-2 {
         font-size: 30px !important;
     }
 
@@ -396,7 +391,7 @@ body {
         padding: 0.8rem 0.8rem !important;
     }
 
-    #toolsIuse {
+    #toolsIuse, #toolsIuse-2 {
         margin-left: 7.5% !important;
         font-size: 24px !important;
     }
@@ -445,7 +440,7 @@ body {
         scale: .8;
     }
 
-    #toolsIuse {
+    #toolsIuse,#toolsIuse-2  {
         margin-bottom: -20px !important;
     }
 
@@ -625,7 +620,7 @@ body {
 }
 
 
-#toolsIuse {
+#toolsIuse, #toolsIuse-2  {
     margin-top: 130px;
     font-size: 35px;
     margin-left: 18.5%;
