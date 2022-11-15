@@ -179,6 +179,11 @@ body {
         margin-bottom: 30px !important;
     }
 
+    #toolsIuse2 {
+        margin-left: 7.5% !important;
+        margin-bottom: 30px !important;
+    }
+
     .techBox {
         display: flex;
         flex-direction: row;
