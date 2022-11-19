@@ -108,6 +108,7 @@ body {
     text-align: justify;
     padding: 30px;
     padding-bottom: 40px;
+    margin: auto;
 }
 
 /* iPadAir */
@@ -126,6 +127,7 @@ body {
     #box4_1 {
         padding: 7.5% !important;
         padding-bottom: 9.5% !important;
+        margin: auto;
     }
 
     .image-wrapper {
@@ -286,6 +288,7 @@ body {
         text-align: justify;
         padding: 30px;
         padding-bottom: 40px;
+        margin: auto;
     }
 
     #box3>a {
@@ -527,7 +530,8 @@ body {
         padding-bottom: 50px !important;
         width: 58rem;
         font-size: 22px;
-        margin-left: 16.5%;
+        /* margin-left: 16.5%; */
+        margin: auto;;
     }
 }
 
