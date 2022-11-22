@@ -1139,3 +1139,7 @@ border-top: 0px !important;
     height: 125%;
     margin-top: -7px;
 }
+
+.float-left{
+    display: none !important;
+}
