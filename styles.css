@@ -220,7 +220,8 @@ body {
     }
 
     #box4_2 {
-        margin-left: 0.5% !important;
+        margin-left: -5.5% !important;
+        padding-bottom: 70px !important;
     }
 
     .project-card-name {
@@ -298,7 +299,9 @@ body {
     #box4_2 {
         padding: 28px;
         margin-left: 5% !important;
-        margin-top: -80px;
+        margin-top: -3rem;
+        padding-bottom: 60px !important;
+
     }
 
     #statsSectionFlex {
@@ -521,8 +524,21 @@ body {
     #box4_2 {
         padding: 28px;
         margin-left: 26px;
+        /* margin-left: -3rem !important;
+        margin-bottom: 3rem !important; */
     }
 }
+
+/* @media (min-width: 320px) and (max-width:480px){
+    #box4_2{
+        padding: 28px;
+        margin-top: -2rem;
+        margin-left: 18%;
+    } 
+    .centreItem{
+        font-size: 18px;
+    }
+} */
 
 @media (min-width: 992px) {
     #box4_1 {
@@ -538,6 +554,7 @@ body {
 #box4_2 {
     padding: 28px;
     margin-left: 18%;
+    padding-bottom: 70px;
 }
 
 #box4_H {
@@ -1142,4 +1159,8 @@ border-top: 0px !important;
 
 .float-left{
     display: none !important;
+}
+
+.centreFlex{
+    font-size: 18.5px;
 }
