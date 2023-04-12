@@ -385,7 +385,7 @@ body {
 
     .project-skill-icons>div {
         margin-right: 0 !important;
-        margin: 0 5px 0 5px;
+        margin: 0 7px 0 7px;
     }
 
     .project-card-item {
@@ -500,6 +500,25 @@ body {
         margin: auto;
         margin-top: 60px !important;
         width: 95%;
+    }
+
+    /* sb */
+    #idsbPiconsRestricted_misc {
+        width: 45px !important;
+        height: 35px !important;
+        margin-bottom: 1px;
+        margin-top: 3px;
+    }    
+
+    #idsbPiconsRestricted_misc2{
+        width: 30px !important;
+        height: 25px !important;
+        margin-bottom: 2px;
+        margin-top: 10px;
+    }  
+    
+    .project-first-col {
+        margin-bottom: 20px;
     }
 
 
@@ -889,6 +908,8 @@ hr {
     align-items: center;
     margin: 3rem auto 0;
     flex-wrap: wrap;
+    justify-content: center ;
+
 }
 
 .project-skill-icons>div {
@@ -1164,3 +1185,31 @@ border-top: 0px !important;
 .centreFlex{
     font-size: 18.5px;
 }
+
+.sbPiconsRestricted{
+    width: 3.2rem !important;
+    height: 3.2rem !important;
+}
+
+.sbPiconsRestricted_misc{
+    width: 3.7rem !important;
+    height: 2.55rem !important;
+    /* margin-bottom: 1.2 rem !important; */
+}
+
+.sbPiconsRestricted_misc2{
+    width: 2.6rem !important;
+    height: 2.6rem !important;
+}
+
+.sbTextMisc{
+    margin-top: .55rem !important;
+}
+
+.sbTextMisc2{
+    margin-top: .7rem !important;
+}
+
+/* .sbPiconsRestrictedMargin{
+    margin-right: .7 rem !important;
+} */
